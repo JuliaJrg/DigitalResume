@@ -1,0 +1,20 @@
+{
+  "name": "digital_resume",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.13",
+    "emailjs-com": "^3.2.0",
+    "js-file-download": "^0.4.12",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-github-calendar": "^4.0.1"
+  }
+}
