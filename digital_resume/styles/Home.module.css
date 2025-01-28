@@ -32,6 +32,12 @@
   margin-bottom: 0.5rem;
 }
 
+.subtitle {
+  color: #eee;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
 .bio {
   width: max-content;
   color: #eee;

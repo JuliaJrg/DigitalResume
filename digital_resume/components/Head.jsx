@@ -4,10 +4,8 @@ const CustomHead = ({ title }) => {
     return (
         <Head>
             <title>{title}</title>
-            <meta
-                name="description"
-                content="Julia Jorge portfolio"
-            />
+            <link rel="icon" href="/favicon.ico" sizes="any" />
+            <meta name="description" content="Julia Jorge portfolio" />
         </Head>
     )
 }
@@ -15,5 +13,5 @@ const CustomHead = ({ title }) => {
 export default CustomHead;
 
 CustomHead.defaultProps = {
-    title: "Julia Jorge"
+    title: "Julia Jorge - Portfolio"
 }

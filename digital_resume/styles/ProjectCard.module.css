@@ -4,6 +4,9 @@
   flex-direction: column;
   border-radius: 20px;
   cursor: pointer;
+  height: 350px;
+  width: 300px;
+  margin: 1rem;
 }
 
 .card:hover {
@@ -13,25 +16,28 @@
 .content {
   padding: 1rem;
   border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .content p {
   font-size: 0.8rem;
   margin-top: 0.5rem;
+  flex-grow: 1;
 }
 
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0.5rem 0 1rem;
+.languages {
+  margin-top: 1rem;
 }
 
-.tags span {
-  margin: 0.5rem 0.5rem 0 0;
-  padding: 0.2rem 0.5rem;
+.languageItem {
+  margin: 0.5rem;
+  padding: 0.3rem 0.6rem;
   border-radius: 20px;
   font-size: 0.75rem;
-  transition: all 0.2s;
+  display: inline-block;
+  color: white;
 }
 
 .cta {
@@ -59,4 +65,44 @@
 
 .underline:hover {
   background-size: 100% 88%;
+}
+
+.language-javascript {
+  background-color: #f1e05a;
+}
+
+.language-css {
+  background-color: #563d7c;
+}
+
+.language-html {
+  background-color: #e44b23;
+}
+
+.language-scss {
+  background-color: #00bcd4;
+}
+
+.language-csharp {
+  background-color: #178600;
+}
+
+.language-cplusplus {
+  background-color: #6866fb;
+}
+
+.language-shaderlab {
+  background-color: #222c37;
+}
+
+.language-hlsl {
+  background-color: #aace60;
+}
+
+.language-gap {
+  background-color: #0000ff;
+}
+
+.language-cmake {
+  background-color: #cccccc;
 }
